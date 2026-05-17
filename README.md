@@ -111,7 +111,7 @@ project_root/
 │   └── .gitkeep
 │
 ├── requirements.txt
-├── .env                           # 本地私密配置檔 (嚴禁上傳)
+├── .env                           # 本地配置
 ├── .gitignore
 └── run_telegram_bot.py            # 專案 Production 入口程序
 
@@ -299,7 +299,7 @@ project_root/
 │   └── .gitkeep
 │
 ├── requirements.txt
-├── .env                           # Local environmental parameters (Strictly untracked)
+├── .env                           # Local environmental parameters
 ├── .gitignore
 └── run_telegram_bot.py            # Entry point for production execution
 
