@@ -1,0 +1,15 @@
+# Phase 1 核心：pandas, numpy, python-binance, pyarrow, tqdm, python-dotenv
+pandas
+numpy
+scikit-learn
+python-binance
+pyarrow
+tqdm
+matplotlib
+seaborn
+scipy
+aiogram>=3.4,<4
+APScheduler>=3.10,<4
+python-dotenv
+tenacity
+joblib

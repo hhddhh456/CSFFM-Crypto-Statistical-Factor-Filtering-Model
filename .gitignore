@@ -1,0 +1,100 @@
+# =========================
+# Secrets / Environment
+# =========================
+.env
+*.env
+.env.*
+!.env.example
+
+# =========================
+# Data Lake / Raw Data
+# =========================
+C:/Data_Lake/
+C:\Data_Lake\
+Data_Lake/
+data_lake/
+data/
+raw_data/
+datasets/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Phase working files
+# =========================
+phase/
+phases/
+PHASE/
+PHASES/
+Phase/
+Phases/
+PHASE*.md
+PHASE*.ipynb
+phase*.md
+phase*.ipynb
+
+# =========================
+# Logs / Reports / Runtime Outputs
+# =========================
+logs/
+reports/
+*.log
+*.jsonl
+
+# keep folder structure if needed
+!logs/.gitkeep
+!reports/.gitkeep
+
+# =========================
+# Model artifacts
+# 如果你不想上傳模型檔，就保留這些
+# =========================
+models/*.pkl
+models/*.joblib
+models/*.pickle
+models/*.sav
+
+# 如果你有小型 metadata 可以上傳，允許 json
+!models/*.json
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.cursor/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
