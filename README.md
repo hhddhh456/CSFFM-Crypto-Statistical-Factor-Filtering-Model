@@ -2,7 +2,7 @@
 
 #### 💡中文版本 (Traditional Chinese Version)
 
-CSFFM為加密貨幣（BTC / ETH）統計因子過濾與期權風險報價系統，經由2021-2026年樣本資料建造特徵工程與多窗口訓練，OOS AUC 平均為 0.5802。系統提供跨市場開盤時段例行推送、有效統計因子預測（波動率、峰度、分佈異常等），透過 Telegram 進行策略與風控報告推播。
+CSFFM 專門為加密貨幣（BTC / ETH）統計因子與期權風險設置報價系統，經 2021-2026 年樣本資料建造特徵工程與多窗口訓練，OOS AUC 平均為 0.5802。本系統提供跨市場開盤時段例行推送、有效統計因子預測（波動率、峰度、分佈異常等）、期權策略建議，通過 Telegram 進行策略報告推播。
 #### Telegram Bot: https://t.me/CryptoSFFM_bot
 
 
@@ -215,7 +215,7 @@ python run_telegram_bot.py --test
 # CSFFM - Crypto Statistical Factor Filtering Model
 #### 💡English Version
 
-CSFFM is a production-grade statistical factor filtering and options writing risk management system engineered for cryptocurrency assets (BTC / ETH). Integrating multi-timezone dynamic scheduling with quantitative risk telemetry (Realized Volatility, Kurtosis, and distributional anomaly forecasting), the system features a high-availability fallback framework that autonomously dispatches actionable tactical analytics and risk reports via Telegram.
+CSFFM is a specialized statistical factor and options risk pricing system built for Crypto markets. Developed with data spanning 2021–2026, the framework combines smart feature engineering with multi-window training and achieves an average out-of-sample AUC of 0.5802. The platform generates regular cross-market reports, statistical predictions, and options recommendations, automatically pushing strategy reports and risk summaries through Telegram.
 #### Telegram Bot: https://t.me/CryptoSFFM_bot
 
 
