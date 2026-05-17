@@ -117,9 +117,35 @@ project_root/
 
 ```
 
-## 6. 環境配置與安裝部署
+## 6. 資料期間與樣本數
 
-### 6.1 安裝依賴
+| 項目 | 數值 / 區間 |
+|------|-------------|
+| Raw K 線區間標籤 | `2021-2026`（`START_DATE=2021-01-01`, `END_DATE=2026-02-28`） |
+| 訓練截止（UTC） | `2024-12-31`（`DEFAULT_TRAIN_END_DATE`） |
+| 嚴格 OOS 測試起點 | `2025-01-01` |
+| Label 前瞻 / 狀態窗口 | `h = 1500` 分鐘，`state_window = 1500` 分鐘 |
+| Purge（防洩漏） | `1500` 分鐘 |
+| OOS 樣本數 `n_oos`（all_day） | 72,911 / symbol（五個 label 相同） |
+| 訓練樣本數 `n_train`（all_day OOS 表） | 271,251 |
+| Settlement regime 訓練樣本（Phase 4 CV） | 18,931（例：`BTCUSDT/settlement`，`n_samples_total_after_mask=23,616`） |
+
+---
+
+## 7. 特徵工程
+
+| 項目 | 內容 |
+|------|------|
+| 每幣種欄數 | 25（`FEATURES_PER_SYMBOL = 5 × 5`） |
+| 跨市場推論欄數 | 50（`btc_*` + `eth_*`） |
+| 回顧窗口（分鐘） | 50, 100, 240, 480, 720（`features/feature_utils.py` → `WINDOWS`） |
+| 五類指標（各 5 窗口） | `roll`, `roll_impact`, `amihud`, `kyle_lambda`, `vpin` |
+
+窗口 OOS 消融（輔助研究，非 Bot 部署維度）：—— 單窗口平均 OOS AUC 最佳為 720 分鐘（0.5688），最弱為 50 分鐘（0.5182）；全 50 維平均 OOS AUC 為 0.5802。
+
+## 8. 環境配置與安裝部署
+
+### 8.1 安裝依賴
 
 確保您的環境為 Python 3.9+，並安裝相關依賴：
 
@@ -143,7 +169,7 @@ exchange-calendars  # optional
 
 ```
 
-### 6.2 環境變數配置 (.env)
+### 8.2 環境變數配置 (.env)
 
 在專案根目錄下建立 `.env` 檔案：
 
@@ -154,9 +180,9 @@ LOG_LEVEL=INFO
 
 ```
 
-## 7. 運行與測試說明
+## 9. 運行與測試說明
 
-### 7.1 生態系 Production 啟動
+### 9.1 生態系 Production 啟動
 
 啟動 Telegram 輪詢（Polling）與背景多時區排程器：
 
@@ -165,7 +191,7 @@ python run_telegram_bot.py
 
 ```
 
-### 7.2 CLI 即時測試模式
+### 9.2 CLI 即時測試模式
 
 若需要驗證 API 連通性、格式化效果與快照保存功能，可透過 `--test` 參數立即對指定的 Chat ID 進行一次全量報告推播：
 
@@ -174,7 +200,7 @@ python run_telegram_bot.py --test
 
 ```
 
-### 7.3 Telegram Bot 互動指令
+### 9.3 Telegram Bot 互動指令
 
 用戶可在 Telegram 頻道或私聊中輸入以下指令與 Bot 即時互動：
 
@@ -305,9 +331,35 @@ project_root/
 
 ```
 
-## 6. Installation & Configuration
+## 6. Data Period & Sample Sizes
 
-### 6.1 Setup Prerequisites
+| Item | Value / Range |
+|------|----------------|
+| Raw candlestick data range label | `2021-2026` (`START_DATE=2021-01-01`, `END_DATE=2026-02-28`) |
+| Training cutoff (UTC) | `2024-12-31` (`DEFAULT_TRAIN_END_DATE`) |
+| Strict OOS test start date | `2025-01-01` |
+| Label lookahead / state window | `h = 1500` minutes, `state_window = 1500` minutes |
+| Purge for leakage prevention | `1500` minutes |
+| OOS sample size `n_oos` (all_day) | 72,911 per symbol (same across all five labels) |
+| Training sample size `n_train` (all_day OOS table) | 271,251 |
+| Settlement regime training samples (Phase 4 CV) | 18,931 (example: `BTCUSDT/settlement`, `n_samples_total_after_mask=23,616`) |
+
+---
+
+## 7. Feature Engineering
+
+| Item | Details |
+|------|----------|
+| Features per symbol | 25 (`FEATURES_PER_SYMBOL = 5 × 5`) |
+| Cross-market inference features | 50 (`btc_*` + `eth_*`) |
+| Lookback windows (minutes) | 50, 100, 240, 480, 720 (`features/feature_utils.py` → `WINDOWS`) |
+| Five indicator categories (each across 5 windows) | `roll`, `roll_impact`, `amihud`, `kyle_lambda`, `vpin` |
+
+Window-based OOS ablation study (auxiliary research, not used as a Bot deployment dimension): see `backtest/window_analysis_summary.md` — among single-window models, the 720-minute window achieved the best average OOS AUC (0.5688), while the 50-minute window performed the worst (0.5182); the full 50-feature model achieved an average OOS AUC of 0.5802.
+
+## 8. Installation & Configuration
+
+### 8.1 Setup Prerequisites
 
 Deploy in Python 3.9+ runtime environments. Install production packages using:
 
@@ -331,7 +383,7 @@ exchange-calendars  # optional
 
 ```
 
-### 6.2 Local Environment Variables (.env)
+### 8.2 Local Environment Variables (.env)
 
 Create an explicit `.env` file within your root directory framework:
 
@@ -342,9 +394,9 @@ LOG_LEVEL=INFO
 
 ```
 
-## 7. Operational Execution & Testing
+## 9. Operational Execution & Testing
 
-### 7.1 Production Deployment
+### 9.1 Production Deployment
 
 Bootstrapping the live polling server alongside background timezone-aware crons:
 
@@ -353,7 +405,7 @@ python run_telegram_bot.py
 
 ```
 
-### 7.2 Immediate Test Routine (CLI Flag)
+### 9.2 Immediate Test Routine (CLI Flag)
 
 To check API gateway access, inspect HTML formatting output, or ensure file system snapshot serialization, run the application with the `--test` flag:
 
@@ -362,7 +414,7 @@ python run_telegram_bot.py --test
 
 ```
 
-### 7.3 Interacting with Bot Commands
+### 9.3 Interacting with Bot Commands
 
 Users can query live engine metrics by interfacing with the following Telegram bot handles:
 
