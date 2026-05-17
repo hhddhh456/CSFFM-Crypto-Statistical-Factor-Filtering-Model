@@ -3,6 +3,8 @@
 # CSFFM - Crypto Statistical Factor Filtering Model
 
 CSFFM 是一款專為加密貨幣（BTC / ETH）設計的統計因子過濾與期權賣方風險管理系統。本系統整合多時區動態排程、量化風險指標預測（波動率、峰度、分佈異常等），透過 Telegram 進行即時策略與風控報告推播。
+#### Telegram Bot: https://t.me/CryptoSFFM_bot
+
 
 > ⚠️重要提示：本系統僅作為統計模型訊號、多因子過濾與期權賣方風險控制之輔助工具。報告內所有數據與自動產生的履約價建議均基於歷史數據模型推導，不構成任何形式的投資建議或要約。
 
@@ -192,6 +194,9 @@ python run_telegram_bot.py --test
 # CSFFM - Crypto Statistical Factor Filtering Model
 
 CSFFM is a production-grade statistical factor filtering and options writing risk management system engineered for cryptocurrency assets (BTC / ETH). Integrating multi-timezone dynamic scheduling with quantitative risk telemetry (Realized Volatility, Kurtosis, and distributional anomaly forecasting), the system features a high-availability fallback framework that autonomously dispatches actionable tactical analytics and risk reports via Telegram.
+#### Telegram Bot: https://t.me/CryptoSFFM_bot
+
+
 
 > ⚠️CRITICAL NOTICE: This system is designed strictly as a statistical model signaling, multi-factor filtering, and risk management auxiliary tool for options sellers. All metrics and dynamically computed strike recommendations generated within reports are derived from historical mathematical formulations and do not constitute financial, investment, or trading advice.
 
