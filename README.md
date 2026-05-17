@@ -139,7 +139,7 @@ pandas
 scikit-learn
 pytz
 tenacity
-exchange-calendars  # 用於美股休市精準判斷
+exchange-calendars  # optional
 
 ```
 
@@ -178,12 +178,12 @@ python run_telegram_bot.py --test
 
 用戶可在 Telegram 頻道或私聊中輸入以下指令與 Bot 即時互動：
 
-* `/start` - 啟動 Bot 並獲取歡迎訊息。
+* `/start` - 啟動 Bot 。
 * `/help` - 顯示可用指令面板與說明。
 * `/status` - 檢查 Bot 在線狀態、Scheduler 運行狀況及最新資料 freshness。
-* `/predict btc` - 立即調用模型，獲取 BTC 即時預測與期權 OTM 履約價簡報。
-* `/predict eth` - 立即調用模型，獲取 ETH 即時預測與期權 OTM 履約價簡報。
-* `/test_report` - 權限管理員專用，立即在頻道內觸發全量排程格式報告。
+* `/predict_btc` - 調用模型，獲取 BTC 即時預測與期權簡報。
+* `/predict_eth` - 調用模型，獲取 ETH 即時預測與期權簡報。
+* `/test_report` - 權限管理員專用，在頻道內觸發全量排程格式報告。
 
 ---
 
@@ -327,7 +327,7 @@ pandas
 scikit-learn
 pytz
 tenacity
-exchange-calendars  # Market calendar validation layer
+exchange-calendars  # optional
 
 ```
 
@@ -366,9 +366,9 @@ python run_telegram_bot.py --test
 
 Users can query live engine metrics by interfacing with the following Telegram bot handles:
 
-* `/start` - Returns initial connection acknowledgement and welcome string.
-* `/help` - Dispatches command references and processing documentation.
+* `/start` - Returns initial connection acknowledgement.
+* `/help` - Dispatches command references.
 * `/status` - Returns runtime heartbeats, cron schedules, and data feed latency analytics.
-* `/predict btc` - Pulls live model state and formats an immediate BTC strike overview report.
-* `/predict eth` - Pulls live model state and formats an immediate ETH strike overview report.
+* `/predict_btc` - Pulls live model state and formats an immediate BTC strike overview report.
+* `/predict_eth` - Pulls live model state and formats an immediate ETH strike overview report.
 * `/test_report` - (Admin Only) Triggers an immediate full-broadcast telemetry dispatch over the target channel.
