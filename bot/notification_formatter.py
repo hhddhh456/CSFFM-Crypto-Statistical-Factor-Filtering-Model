@@ -50,8 +50,6 @@ def _finalize_message(message: str) -> str:
 def _direction_advice_lines(data: dict[str, Any], prefix: str) -> list[str]:
     pfx = prefix
     return [
-        f"• 波動（Volatility）：{safe_text(data.get(f'{pfx}_vol_dir', 'N/A'))}"
-        f"（信心 {safe_text(data.get(f'{pfx}_vol_prob', 'N/A'))}%）",
         f"• 極端風險：峰度（Kurtosis）：{safe_text(data.get(f'{pfx}_kurt_dir', 'N/A'))}"
         f"｜Jarque-Bera 檢定：{safe_text(data.get(f'{pfx}_jb_dir', 'N/A'))}",
         f"• 序列相關（Sequential Correlation）：{safe_text(data.get(f'{pfx}_seq_dir', 'N/A'))}"
