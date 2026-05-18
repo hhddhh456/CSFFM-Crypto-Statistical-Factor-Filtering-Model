@@ -232,7 +232,7 @@ def calculate_recommended_strike(
     else:
         otm_level = "Near ATM（近平值）"
 
-    extreme_risk = "顯著提升（肥尾風險高）" if kurtosis_high else "處於正常區間"
+    extreme_risk = "顯著提升（厚尾風險高）" if kurtosis_high else "處於正常區間"
     risk_note = (
         "注意突發極端行情，建議嚴格控管部位"
         if kurtosis_high
