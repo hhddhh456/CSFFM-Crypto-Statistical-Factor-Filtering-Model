@@ -10,7 +10,6 @@
 # Data Lake / Raw Data
 # =========================
 C:/Data_Lake/
-C:\Data_Lake\
 Data_Lake/
 data_lake/
 data/
@@ -58,9 +57,18 @@ models/*.pkl
 models/*.joblib
 models/*.pickle
 models/*.sav
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.pickle
+models/**/*.sav
 
 # allow small metadata
 !models/*.json
+!models/**/*.json
+!models/*.md
+!models/**/*.md
+!models/*.py
+!models/**/*.py
 
 # =========================
 # Python cache
@@ -99,5 +107,5 @@ temp/
 *.backup
 
 # =========================
-# Ignore complete
+# Ignore complete Name
 # =========================
