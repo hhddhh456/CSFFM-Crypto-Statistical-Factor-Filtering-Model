@@ -53,14 +53,13 @@ reports/
 
 # =========================
 # Model artifacts
-# 如果你不想上傳模型檔，就保留這些
 # =========================
 models/*.pkl
 models/*.joblib
 models/*.pickle
 models/*.sav
 
-# 如果你有小型 metadata 可以上傳，允許 json
+# allow small metadata
 !models/*.json
 
 # =========================
@@ -98,3 +97,8 @@ temp/
 *.tmp
 *.bak
 *.backup
+
+# =========================
+# Force include README
+# =========================
+!超完整READ_ME.md
