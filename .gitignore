@@ -99,6 +99,6 @@ temp/
 *.backup
 
 # =========================
-# Force include README
+# Ignore complete README
 # =========================
-!超完整READ_ME.md
+超完整READ_ME.md
