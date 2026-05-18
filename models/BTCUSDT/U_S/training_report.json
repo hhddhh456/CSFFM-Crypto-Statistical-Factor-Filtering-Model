@@ -1,0 +1,453 @@
+{
+  "symbol": "BTCUSDT",
+  "regime": "u_s",
+  "run_started_utc": "2026-05-16T03:46:03.268083+00:00",
+  "train_end_date": "2024-12-31",
+  "models": {
+    "label_realized_volatility": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_realized_volatility.pkl",
+      "summary": {
+        "label_type": "label_realized_volatility",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5409724242149749,
+        "auc_std": 0.06488148012826837,
+        "accuracy_mean": 0.5030139795867956,
+        "accuracy_std": 0.06060442671934032,
+        "pr_auc_mean": 0.4930333044740062,
+        "pr_auc_std": 0.09059417896048662,
+        "oob_score": 0.9959654963305817,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9961720998988562,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "eth_vpin_720",
+          "importance_mean": 0.005476146278076854
+        },
+        {
+          "feature": "eth_roll_480",
+          "importance_mean": 0.0022956500216570696
+        },
+        {
+          "feature": "eth_roll_720",
+          "importance_mean": 0.0018996349235814835
+        },
+        {
+          "feature": "btc_roll_720",
+          "importance_mean": 0.0018439453004145845
+        },
+        {
+          "feature": "eth_vpin_480",
+          "importance_mean": 0.0010828537838005303
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.6608711578432509,
+          "accuracy": 0.6123556942277691,
+          "pr_auc": 0.661501491906764
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.5016588283932298,
+          "accuracy": 0.5131529966497084,
+          "pr_auc": 0.4836611826601081
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.5573703861484036,
+          "accuracy": 0.4329055569399452,
+          "pr_auc": 0.44344447241357304
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.5012846577055452,
+          "accuracy": 0.4690523443314314,
+          "pr_auc": 0.39293550340660505
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.4836770909844454,
+          "accuracy": 0.48760330578512395,
+          "pr_auc": 0.4836238719829803
+        }
+      ]
+    },
+    "label_sequential_correlation": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_sequential_correlation.pkl",
+      "summary": {
+        "label_type": "label_sequential_correlation",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5216681102921102,
+        "auc_std": 0.0364763549214006,
+        "accuracy_mean": 0.5963039790946596,
+        "accuracy_std": 0.08250607597059202,
+        "pr_auc_mean": 0.703005390008871,
+        "pr_auc_std": 0.030473267129927584,
+        "oob_score": 0.9882677623355568,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9895588578541975,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "btc_roll_720",
+          "importance_mean": 0.018476579419590376
+        },
+        {
+          "feature": "eth_vpin_720",
+          "importance_mean": 0.011769073695934672
+        },
+        {
+          "feature": "btc_roll_480",
+          "importance_mean": 0.004145783057979113
+        },
+        {
+          "feature": "eth_vpin_480",
+          "importance_mean": 0.0026792896479178154
+        },
+        {
+          "feature": "eth_roll_480",
+          "importance_mean": 0.002549347193861751
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.46213686612388727,
+          "accuracy": 0.6033697347893916,
+          "pr_auc": 0.6642016680013574
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.5666228814723557,
+          "accuracy": 0.44043926045415066,
+          "pr_auc": 0.7440720842874048
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.544277072650255,
+          "accuracy": 0.6148143533516073,
+          "pr_auc": 0.7203197240717176
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.5341487779851382,
+          "accuracy": 0.6822128504093277,
+          "pr_auc": 0.7151196613221498
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.501154953228915,
+          "accuracy": 0.6406836964688204,
+          "pr_auc": 0.6713138123617249
+        }
+      ]
+    },
+    "label_skewness": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_skewness.pkl",
+      "summary": {
+        "label_type": "label_skewness",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.49454516451701036,
+        "auc_std": 0.01693247252869177,
+        "accuracy_mean": 0.4983617963259944,
+        "accuracy_std": 0.016614396344167004,
+        "pr_auc_mean": 0.4993430538960168,
+        "pr_auc_std": 0.01922455819066775,
+        "oob_score": 0.994022499164635,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9946627246557224,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "btc_roll_480",
+          "importance_mean": 0.010531526514448341
+        },
+        {
+          "feature": "btc_roll_720",
+          "importance_mean": 0.004430418909720957
+        },
+        {
+          "feature": "eth_vpin_480",
+          "importance_mean": 0.003898273621681847
+        },
+        {
+          "feature": "eth_vpin_720",
+          "importance_mean": 0.003465132108161617
+        },
+        {
+          "feature": "eth_roll_720",
+          "importance_mean": 0.0022090217189530193
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.5188613893994789,
+          "accuracy": 0.529609984399376,
+          "pr_auc": 0.4826765865519302
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.4908462870688989,
+          "accuracy": 0.49640153865243825,
+          "pr_auc": 0.5198270433723137
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.49570751434594573,
+          "accuracy": 0.48523548467480687,
+          "pr_auc": 0.49569857932771166
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.4664789661684071,
+          "accuracy": 0.48331679483999007,
+          "pr_auc": 0.523102452846542
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.5008316656023211,
+          "accuracy": 0.4972451790633609,
+          "pr_auc": 0.4754106073815865
+        }
+      ]
+    },
+    "label_kurtosis": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_kurtosis.pkl",
+      "summary": {
+        "label_type": "label_kurtosis",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5232260085067485,
+        "auc_std": 0.06996676703204091,
+        "accuracy_mean": 0.5063875931119398,
+        "accuracy_std": 0.05672797228651667,
+        "pr_auc_mean": 0.4666022774846207,
+        "pr_auc_std": 0.061874987895015075,
+        "oob_score": 0.9957303565461678,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9958142067999689,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "eth_vpin_720",
+          "importance_mean": 0.015685910525338763
+        },
+        {
+          "feature": "btc_roll_720",
+          "importance_mean": 0.010401584060392299
+        },
+        {
+          "feature": "btc_roll_480",
+          "importance_mean": 0.002332776437101669
+        },
+        {
+          "feature": "btc_vpin_720",
+          "importance_mean": 0.0018872594517665986
+        },
+        {
+          "feature": "eth_roll_100",
+          "importance_mean": 0.0013303632200977855
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.5366812119052344,
+          "accuracy": 0.523182527301092,
+          "pr_auc": 0.48042967661963304
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.39363069629307174,
+          "accuracy": 0.4027174587417794,
+          "pr_auc": 0.356802402639377
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.5305814193101426,
+          "accuracy": 0.5026164963867431,
+          "pr_auc": 0.4493792601313668
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.6052733540727522,
+          "accuracy": 0.5733688910940213,
+          "pr_auc": 0.513399029156708
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.5499633609525413,
+          "accuracy": 0.5300525920360631,
+          "pr_auc": 0.5330010188760184
+        }
+      ]
+    },
+    "label_jarque_bera": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_jarque_bera.pkl",
+      "summary": {
+        "label_type": "label_jarque_bera",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5209744969546763,
+        "auc_std": 0.07454952993902157,
+        "accuracy_mean": 0.5046832242057442,
+        "accuracy_std": 0.06210142366179558,
+        "pr_auc_mean": 0.46115766204015507,
+        "pr_auc_std": 0.06372993796447741,
+        "oob_score": 0.9956808534336596,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9955807982572162,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "eth_vpin_720",
+          "importance_mean": 0.0188973454612957
+        },
+        {
+          "feature": "btc_roll_720",
+          "importance_mean": 0.013080873708310148
+        },
+        {
+          "feature": "btc_vpin_720",
+          "importance_mean": 0.0018315698285997107
+        },
+        {
+          "feature": "btc_roll_480",
+          "importance_mean": 0.001813006620877433
+        },
+        {
+          "feature": "eth_roll_100",
+          "importance_mean": 0.0010581028401707936
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.5417273945395149,
+          "accuracy": 0.5302340093603745,
+          "pr_auc": 0.47534152996442147
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.3876838798777243,
+          "accuracy": 0.39117756545477106,
+          "pr_auc": 0.35132843575459594
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.5150439589367619,
+          "accuracy": 0.49433092449538996,
+          "pr_auc": 0.4354110168324165
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.6158355496002736,
+          "accuracy": 0.5739270652443562,
+          "pr_auc": 0.5244016928961343
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.5445817018191069,
+          "accuracy": 0.5337465564738292,
+          "pr_auc": 0.5193056347532076
+        }
+      ]
+    }
+  }
+}

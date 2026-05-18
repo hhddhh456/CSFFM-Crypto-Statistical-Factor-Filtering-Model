@@ -1,0 +1,23 @@
+{
+  "symbol": "ETHUSDT",
+  "label_type": "label_kurtosis",
+  "regime": "u_s",
+  "train_end": "2024-12-31",
+  "test_start": "2025-01-01",
+  "evaluated_utc": "2026-05-16T17:59:29.118426+00:00",
+  "n_train": 80803,
+  "n_oos": 24132,
+  "auc_in_sample": 0.5001723291805754,
+  "auc_holdout_train": 0.47595801160594353,
+  "auc_oos": 0.5841022313414802,
+  "auc_gap": -0.08392990216090479,
+  "pr_auc_oos": 0.5315375743050812,
+  "auc_phase4_baseline": 0.5841022347990975,
+  "status": "ok",
+  "walk_forward_auc_mean_train": 0.5001723291805754,
+  "pr_auc_in_sample_cv": 0.4580005481056224,
+  "accuracy_oos": 0.5556936847339632,
+  "f1_oos": 0.5587291135072846,
+  "pr_auc_phase4_baseline": 0.5315375743050812,
+  "baseline_minus_fresh_oos": 3.4576173035816282e-09
+}

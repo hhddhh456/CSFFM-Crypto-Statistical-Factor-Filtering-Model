@@ -1,0 +1,453 @@
+{
+  "symbol": "ETHUSDT",
+  "regime": "u_s",
+  "run_started_utc": "2026-05-16T03:46:03.268083+00:00",
+  "train_end_date": "2024-12-31",
+  "models": {
+    "label_realized_volatility": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_realized_volatility.pkl",
+      "summary": {
+        "label_type": "label_realized_volatility",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5181793490002765,
+        "auc_std": 0.04660099647890257,
+        "accuracy_mean": 0.4966605369208718,
+        "accuracy_std": 0.03355849447556476,
+        "pr_auc_mean": 0.46927668955862495,
+        "pr_auc_std": 0.0718413924886101,
+        "oob_score": 0.9956313503211515,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9956897222438341,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "eth_roll_480",
+          "importance_mean": 0.015555968071282723
+        },
+        {
+          "feature": "btc_vpin_720",
+          "importance_mean": 0.002908235876492782
+        },
+        {
+          "feature": "eth_roll_720",
+          "importance_mean": 0.002648350968380653
+        },
+        {
+          "feature": "eth_vpin_480",
+          "importance_mean": 0.002270899078027333
+        },
+        {
+          "feature": "eth_vpin_720",
+          "importance_mean": 0.000884846234762715
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.5812636898661572,
+          "accuracy": 0.5470202808112324,
+          "pr_auc": 0.5704747718989992
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.4409730394061509,
+          "accuracy": 0.4796500806551681,
+          "pr_auc": 0.428164263798028
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.5464659967345165,
+          "accuracy": 0.4457388487415898,
+          "pr_auc": 0.4257662324937044
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.5081506087442896,
+          "accuracy": 0.5000620193500372,
+          "pr_auc": 0.38403417943562634
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.5140434102502683,
+          "accuracy": 0.5108314550463311,
+          "pr_auc": 0.5379440001667669
+        }
+      ]
+    },
+    "label_sequential_correlation": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_sequential_correlation.pkl",
+      "summary": {
+        "label_type": "label_sequential_correlation",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5158276372762596,
+        "auc_std": 0.05962752976221369,
+        "accuracy_mean": 0.5622968749719525,
+        "accuracy_std": 0.036387794051594646,
+        "pr_auc_mean": 0.6740641359570835,
+        "pr_auc_std": 0.06776032588819579,
+        "oob_score": 0.9881935076667946,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9879249980549288,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "eth_roll_720",
+          "importance_mean": 0.01566115958170907
+        },
+        {
+          "feature": "eth_vpin_720",
+          "importance_mean": 0.010970855763875997
+        },
+        {
+          "feature": "eth_roll_480",
+          "importance_mean": 0.006193923643338895
+        },
+        {
+          "feature": "btc_vpin_480",
+          "importance_mean": 0.0014726811459686907
+        },
+        {
+          "feature": "btc_vpin_720",
+          "importance_mean": 0.0013303632200977855
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.5514829534563462,
+          "accuracy": 0.5958190327613104,
+          "pr_auc": 0.7441640990962186
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.6120637419426755,
+          "accuracy": 0.5022955701699963,
+          "pr_auc": 0.7520694476566445
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.5014089473901258,
+          "accuracy": 0.5429230002491902,
+          "pr_auc": 0.6491242072820586
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.4488237982770673,
+          "accuracy": 0.5698958074919375,
+          "pr_auc": 0.5691708172624491
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.46535874531508314,
+          "accuracy": 0.6005509641873278,
+          "pr_auc": 0.6557921084880465
+        }
+      ]
+    },
+    "label_skewness": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_skewness.pkl",
+      "summary": {
+        "label_type": "label_skewness",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.4905340995142852,
+        "auc_std": 0.03455807307840549,
+        "accuracy_mean": 0.4890761389401265,
+        "accuracy_std": 0.03569704406608234,
+        "pr_auc_mean": 0.5033214579101198,
+        "pr_auc_std": 0.042549220895241185,
+        "oob_score": 0.9939482444958727,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9940869835835991,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "btc_roll_480",
+          "importance_mean": 0.005507084957613995
+        },
+        {
+          "feature": "eth_roll_720",
+          "importance_mean": 0.0026236000247509606
+        },
+        {
+          "feature": "eth_vpin_720",
+          "importance_mean": 0.0013179877482829116
+        },
+        {
+          "feature": "btc_roll_720",
+          "importance_mean": 0.0012870490687457603
+        },
+        {
+          "feature": "btc_vpin_480",
+          "importance_mean": 0.0012684858610234606
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.5332361284793237,
+          "accuracy": 0.5167550702028081,
+          "pr_auc": 0.49380236240523956
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.5202290966405623,
+          "accuracy": 0.537039334905075,
+          "pr_auc": 0.5411561161648591
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.44904522668558694,
+          "accuracy": 0.459880388736606,
+          "pr_auc": 0.4836085028491489
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.4981783172437393,
+          "accuracy": 0.49206152319523694,
+          "pr_auc": 0.5586209234512964
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.4519817285222141,
+          "accuracy": 0.4396443776609066,
+          "pr_auc": 0.43941938468005504
+        }
+      ]
+    },
+    "label_kurtosis": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_kurtosis.pkl",
+      "summary": {
+        "label_type": "label_kurtosis",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.500172006915325,
+        "auc_std": 0.03703425342879016,
+        "accuracy_mean": 0.49490950915958204,
+        "accuracy_std": 0.027928660835403272,
+        "pr_auc_mean": 0.4580008039345609,
+        "pr_auc_std": 0.06049946158254786,
+        "oob_score": 0.9951981980867047,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.995409631992531,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "btc_roll_720",
+          "importance_mean": 0.013916218055813367
+        },
+        {
+          "feature": "btc_roll_480",
+          "importance_mean": 0.011694820865045464
+        },
+        {
+          "feature": "eth_roll_720",
+          "importance_mean": 0.001670688695006506
+        },
+        {
+          "feature": "btc_vpin_480",
+          "importance_mean": 0.0012994245405606232
+        },
+        {
+          "feature": "btc_vpin_720",
+          "importance_mean": 0.00043932924942765574
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.5044089729221591,
+          "accuracy": 0.4824960998439938,
+          "pr_auc": 0.47541106419198204
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.4407404917124072,
+          "accuracy": 0.478099019729495,
+          "pr_auc": 0.3796029581943847
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.5019124589286905,
+          "accuracy": 0.4806254672314976,
+          "pr_auc": 0.4180825419195542
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.5575252153121592,
+          "accuracy": 0.5506698089804019,
+          "pr_auc": 0.4576249847910595
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.496272895701209,
+          "accuracy": 0.4826571500125219,
+          "pr_auc": 0.5592824705758241
+        }
+      ]
+    },
+    "label_jarque_bera": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_jarque_bera.pkl",
+      "summary": {
+        "label_type": "label_jarque_bera",
+        "regime": "u_s",
+        "n_samples": 80803,
+        "n_features": 50,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5018794135474436,
+        "auc_std": 0.04537047895593267,
+        "accuracy_mean": 0.5030951553476222,
+        "accuracy_std": 0.02918532750818572,
+        "pr_auc_mean": 0.4637275333626173,
+        "pr_auc_std": 0.055733443788577974,
+        "oob_score": 0.9953714589804834,
+        "fit_final_on_full_train": true,
+        "cv_last_fold_oob": 0.9949894966155761,
+        "train_end_date": "2024-12-31",
+        "n_samples_total_after_mask": 104935,
+        "n_samples_excluded_after_train_end": 24132
+      },
+      "top5_mda": [
+        {
+          "feature": "btc_roll_720",
+          "importance_mean": 0.012424973702122399
+        },
+        {
+          "feature": "btc_roll_480",
+          "importance_mean": 0.008607140647237188
+        },
+        {
+          "feature": "eth_roll_720",
+          "importance_mean": 0.0020233896417300888
+        },
+        {
+          "feature": "btc_vpin_480",
+          "importance_mean": 0.0014664934100612648
+        },
+        {
+          "feature": "btc_vpin_720",
+          "importance_mean": 0.0011385434069674071
+        }
+      ],
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 12714,
+          "n_val": 16025,
+          "auc": 0.5262853184902201,
+          "accuracy": 0.5073322932917317,
+          "pr_auc": 0.5020019020743727
+        },
+        {
+          "fold": 2,
+          "n_train": 25790,
+          "n_val": 16118,
+          "auc": 0.4396586564636536,
+          "accuracy": 0.4921206104975803,
+          "pr_auc": 0.3728507870942308
+        },
+        {
+          "fold": 3,
+          "n_train": 38702,
+          "n_val": 16052,
+          "auc": 0.5194357334543673,
+          "accuracy": 0.5008721654622477,
+          "pr_auc": 0.43271227443789617
+        },
+        {
+          "fold": 4,
+          "n_train": 51612,
+          "n_val": 16124,
+          "auc": 0.5635446019055996,
+          "accuracy": 0.5527164475316299,
+          "pr_auc": 0.4795587399104384
+        },
+        {
+          "fold": 5,
+          "n_train": 64265,
+          "n_val": 15972,
+          "auc": 0.4604727574233771,
+          "accuracy": 0.4624342599549211,
+          "pr_auc": 0.5315139632961485
+        }
+      ]
+    }
+  }
+}

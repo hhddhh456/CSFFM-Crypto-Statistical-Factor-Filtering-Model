@@ -1,0 +1,39 @@
+{
+  "symbol": "BTCUSDT",
+  "label_type": "label_kurtosis",
+  "regime": "all_day",
+  "test_start_date": "2025-01-01",
+  "evaluated_utc": "2026-05-16T18:13:07.142666+00:00",
+  "n_samples": 72911,
+  "auc": 0.5784620317322305,
+  "pr_auc": 0.552415436554198,
+  "accuracy": 0.554566526312902,
+  "f1": 0.5630171822230594,
+  "strategy_return": 7510.717600000001,
+  "n_trades": 50353,
+  "win_rate": 0.5749806367048637,
+  "signal_threshold": 0.55,
+  "fee_bps": 4.0,
+  "top5_mda": [
+    {
+      "feature": "btc_roll_720",
+      "importance_mean": 0.03894946170198173
+    },
+    {
+      "feature": "btc_roll_480",
+      "importance_mean": 0.030226976616608336
+    },
+    {
+      "feature": "btc_roll_240",
+      "importance_mean": 0.02431598436535689
+    },
+    {
+      "feature": "btc_kyle_lambda_480",
+      "importance_mean": 0.018583281903586334
+    },
+    {
+      "feature": "eth_roll_720",
+      "importance_mean": 0.017815264348899372
+    }
+  ]
+}

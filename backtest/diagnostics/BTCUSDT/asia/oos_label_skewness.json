@@ -1,0 +1,23 @@
+{
+  "symbol": "BTCUSDT",
+  "label_type": "label_skewness",
+  "regime": "asia",
+  "train_end": "2024-12-31",
+  "test_start": "2025-01-01",
+  "evaluated_utc": "2026-05-16T17:40:57.313672+00:00",
+  "n_train": 61099,
+  "n_oos": 16784,
+  "auc_in_sample": 0.5020291680384781,
+  "auc_holdout_train": 0.49972539964860063,
+  "auc_oos": 0.5434085726675677,
+  "auc_gap": -0.04137940462908962,
+  "pr_auc_oos": 0.5388089485281212,
+  "auc_phase4_baseline": 0.5434075572797991,
+  "status": "ok",
+  "walk_forward_auc_mean_train": 0.5020291680384781,
+  "pr_auc_in_sample_cv": 0.4996494190601034,
+  "accuracy_oos": 0.5406935176358436,
+  "f1_oos": 0.5003564715794931,
+  "pr_auc_phase4_baseline": 0.5388072839179365,
+  "baseline_minus_fresh_oos": -1.0153877686436275e-06
+}

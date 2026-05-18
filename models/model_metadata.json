@@ -1,0 +1,83 @@
+{
+  "2026-04-08T18:07:59.882848+00:00": {
+    "run_started_utc": "2026-04-08T18:07:59.882848+00:00",
+    "force_recompute": false,
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "label_order": [
+      "label_realized_volatility",
+      "label_sequential_correlation",
+      "label_skewness",
+      "label_kurtosis",
+      "label_jarque_bera"
+    ]
+  },
+  "2026-05-15T16:47:07.482652+00:00": {
+    "run_started_utc": "2026-05-15T16:47:07.482652+00:00",
+    "force_recompute": true,
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "regimes": [
+      "all_day",
+      "asia",
+      "u_s",
+      "settlement"
+    ],
+    "label_order": [
+      "label_realized_volatility",
+      "label_sequential_correlation",
+      "label_skewness",
+      "label_kurtosis",
+      "label_jarque_bera"
+    ],
+    "comparison_summary": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\model_comparison_summary.md"
+  },
+  "2026-05-15T20:47:38.686410+00:00": {
+    "run_started_utc": "2026-05-15T20:47:38.686410+00:00",
+    "force_recompute": true,
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "regimes": [
+      "all_day",
+      "asia",
+      "u_s",
+      "settlement"
+    ],
+    "label_order": [
+      "label_realized_volatility",
+      "label_sequential_correlation",
+      "label_skewness",
+      "label_kurtosis",
+      "label_jarque_bera"
+    ],
+    "comparison_summary": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\model_comparison_summary.md"
+  },
+  "2026-05-16T03:46:03.268083+00:00": {
+    "run_started_utc": "2026-05-16T03:46:03.268083+00:00",
+    "force_recompute": true,
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "regimes": [
+      "all_day",
+      "asia",
+      "u_s",
+      "settlement"
+    ],
+    "label_order": [
+      "label_realized_volatility",
+      "label_sequential_correlation",
+      "label_skewness",
+      "label_kurtosis",
+      "label_jarque_bera"
+    ],
+    "comparison_summary": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\model_comparison_summary.md"
+  }
+}

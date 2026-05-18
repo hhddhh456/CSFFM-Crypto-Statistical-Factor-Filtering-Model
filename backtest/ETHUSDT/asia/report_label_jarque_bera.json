@@ -1,0 +1,39 @@
+{
+  "symbol": "ETHUSDT",
+  "label_type": "label_jarque_bera",
+  "regime": "asia",
+  "test_start_date": "2025-01-01",
+  "evaluated_utc": "2026-05-16T18:19:18.723360+00:00",
+  "n_samples": 16784,
+  "auc": 0.5915568444658339,
+  "pr_auc": 0.5700552999161637,
+  "accuracy": 0.5865705433746425,
+  "f1": 0.6258694128430474,
+  "strategy_return": 2424.328,
+  "n_trades": 12090,
+  "win_rate": 0.6006617038875104,
+  "signal_threshold": 0.55,
+  "fee_bps": 4.0,
+  "top5_mda": [
+    {
+      "feature": "eth_roll_720",
+      "importance_mean": 0.03574620196604117
+    },
+    {
+      "feature": "btc_roll_100",
+      "importance_mean": 0.017158176943699765
+    },
+    {
+      "feature": "btc_kyle_lambda_100",
+      "importance_mean": 0.01471551980935364
+    },
+    {
+      "feature": "btc_roll_480",
+      "importance_mean": 0.012392016681560935
+    },
+    {
+      "feature": "btc_vpin_480",
+      "importance_mean": 0.010425975573428703
+    }
+  ]
+}

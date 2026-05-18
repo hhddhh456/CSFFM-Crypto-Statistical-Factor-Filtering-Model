@@ -1,0 +1,23 @@
+{
+  "symbol": "BTCUSDT",
+  "label_type": "label_kurtosis",
+  "regime": "u_s",
+  "train_end": "2024-12-31",
+  "test_start": "2025-01-01",
+  "evaluated_utc": "2026-05-16T17:44:08.406901+00:00",
+  "n_train": 80803,
+  "n_oos": 24132,
+  "auc_in_sample": 0.5232282943740114,
+  "auc_holdout_train": 0.5426115477484614,
+  "auc_oos": 0.5262163931333741,
+  "auc_gap": -0.0029880987593626784,
+  "pr_auc_oos": 0.527655651655119,
+  "auc_phase4_baseline": 0.5262164206081533,
+  "status": "ok",
+  "walk_forward_auc_mean_train": 0.5232282943740114,
+  "pr_auc_in_sample_cv": 0.46659798567758665,
+  "accuracy_oos": 0.5181501740427648,
+  "f1_oos": 0.4930240669689571,
+  "pr_auc_phase4_baseline": 0.5276555996043907,
+  "baseline_minus_fresh_oos": 2.7474779229486046e-08
+}

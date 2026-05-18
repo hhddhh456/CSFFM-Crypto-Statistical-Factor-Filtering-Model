@@ -1,0 +1,404 @@
+{
+  "records": [
+    {
+      "symbol": "BTCUSDT",
+      "regime": "all_day",
+      "label_type": "label_realized_volatility",
+      "auc_mean": 0.560768387827288,
+      "accuracy_mean": 0.5342971643105817,
+      "pr_auc_mean": 0.5463765498560649,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "all_day",
+      "label_type": "label_sequential_correlation",
+      "auc_mean": 0.5417939551271844,
+      "accuracy_mean": 0.6096397766599029,
+      "pr_auc_mean": 0.7106855261873484,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "all_day",
+      "label_type": "label_skewness",
+      "auc_mean": 0.5027515067823609,
+      "accuracy_mean": 0.501049377681541,
+      "pr_auc_mean": 0.5183006427697705,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "all_day",
+      "label_type": "label_kurtosis",
+      "auc_mean": 0.5745612521112557,
+      "accuracy_mean": 0.5289898481494618,
+      "pr_auc_mean": 0.5159764382783646,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "all_day",
+      "label_type": "label_jarque_bera",
+      "auc_mean": 0.5707488840464323,
+      "accuracy_mean": 0.5275443491479469,
+      "pr_auc_mean": 0.5122709068784674,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "asia",
+      "label_type": "label_realized_volatility",
+      "auc_mean": 0.5280762372693106,
+      "accuracy_mean": 0.5242627594403373,
+      "pr_auc_mean": 0.555936018084745,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "asia",
+      "label_type": "label_sequential_correlation",
+      "auc_mean": 0.5570065984961835,
+      "accuracy_mean": 0.6424942655818422,
+      "pr_auc_mean": 0.7478718670094427,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "asia",
+      "label_type": "label_skewness",
+      "auc_mean": 0.5020291680384781,
+      "accuracy_mean": 0.48286663218959963,
+      "pr_auc_mean": 0.4996494178820809,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "asia",
+      "label_type": "label_kurtosis",
+      "auc_mean": 0.5884472906444412,
+      "accuracy_mean": 0.5494531502358023,
+      "pr_auc_mean": 0.5583750494924749,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "asia",
+      "label_type": "label_jarque_bera",
+      "auc_mean": 0.6012733550296376,
+      "accuracy_mean": 0.5614297147251659,
+      "pr_auc_mean": 0.5727345806713344,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "u_s",
+      "label_type": "label_realized_volatility",
+      "auc_mean": 0.5409724242149749,
+      "accuracy_mean": 0.5030139795867956,
+      "pr_auc_mean": 0.4930333044740062,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "u_s",
+      "label_type": "label_sequential_correlation",
+      "auc_mean": 0.5216681102921102,
+      "accuracy_mean": 0.5963039790946596,
+      "pr_auc_mean": 0.703005390008871,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "u_s",
+      "label_type": "label_skewness",
+      "auc_mean": 0.49454516451701036,
+      "accuracy_mean": 0.4983617963259944,
+      "pr_auc_mean": 0.4993430538960168,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "u_s",
+      "label_type": "label_kurtosis",
+      "auc_mean": 0.5232260085067485,
+      "accuracy_mean": 0.5063875931119398,
+      "pr_auc_mean": 0.4666022774846207,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "u_s",
+      "label_type": "label_jarque_bera",
+      "auc_mean": 0.5209744969546763,
+      "accuracy_mean": 0.5046832242057442,
+      "pr_auc_mean": 0.46115766204015507,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "settlement",
+      "label_type": "label_realized_volatility",
+      "auc_mean": 0.5822767801600778,
+      "accuracy_mean": 0.5441531416638673,
+      "pr_auc_mean": 0.6180100464326881,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "settlement",
+      "label_type": "label_sequential_correlation",
+      "auc_mean": 0.5037715775497267,
+      "accuracy_mean": 0.5491427786771301,
+      "pr_auc_mean": 0.5899056085532928,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "settlement",
+      "label_type": "label_skewness",
+      "auc_mean": 0.5286745359177364,
+      "accuracy_mean": 0.5077306517355707,
+      "pr_auc_mean": 0.547774729022861,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "settlement",
+      "label_type": "label_kurtosis",
+      "auc_mean": 0.6101521767326852,
+      "accuracy_mean": 0.5545073005428935,
+      "pr_auc_mean": 0.630695777736892,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "BTCUSDT",
+      "regime": "settlement",
+      "label_type": "label_jarque_bera",
+      "auc_mean": 0.6107710930266022,
+      "accuracy_mean": 0.557970465128214,
+      "pr_auc_mean": 0.6297312197937179,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "all_day",
+      "label_type": "label_realized_volatility",
+      "auc_mean": 0.5467760284266379,
+      "accuracy_mean": 0.5239946739560919,
+      "pr_auc_mean": 0.5179981897421299,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "all_day",
+      "label_type": "label_sequential_correlation",
+      "auc_mean": 0.5308614937221127,
+      "accuracy_mean": 0.5880770098421977,
+      "pr_auc_mean": 0.6771848850049238,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "all_day",
+      "label_type": "label_skewness",
+      "auc_mean": 0.5003787683940867,
+      "accuracy_mean": 0.49410050807183553,
+      "pr_auc_mean": 0.5015478731109748,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "all_day",
+      "label_type": "label_kurtosis",
+      "auc_mean": 0.5583735348356995,
+      "accuracy_mean": 0.5381417501341772,
+      "pr_auc_mean": 0.5330950836647593,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "all_day",
+      "label_type": "label_jarque_bera",
+      "auc_mean": 0.5593648281781619,
+      "accuracy_mean": 0.5417120160810237,
+      "pr_auc_mean": 0.5377707398448157,
+      "n_samples": 271251,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "asia",
+      "label_type": "label_realized_volatility",
+      "auc_mean": 0.532510231603105,
+      "accuracy_mean": 0.5437060625140223,
+      "pr_auc_mean": 0.5228875003448679,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "asia",
+      "label_type": "label_sequential_correlation",
+      "auc_mean": 0.555171356030182,
+      "accuracy_mean": 0.6110221265690707,
+      "pr_auc_mean": 0.7088020703963336,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "asia",
+      "label_type": "label_skewness",
+      "auc_mean": 0.4788142839061805,
+      "accuracy_mean": 0.4814403267566629,
+      "pr_auc_mean": 0.5023324061649654,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "asia",
+      "label_type": "label_kurtosis",
+      "auc_mean": 0.5709576173717071,
+      "accuracy_mean": 0.5239429169232104,
+      "pr_auc_mean": 0.5352330586441234,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "asia",
+      "label_type": "label_jarque_bera",
+      "auc_mean": 0.5702640639172192,
+      "accuracy_mean": 0.5233214023477968,
+      "pr_auc_mean": 0.5447958648914485,
+      "n_samples": 61099,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "u_s",
+      "label_type": "label_realized_volatility",
+      "auc_mean": 0.5181793490002765,
+      "accuracy_mean": 0.4966605369208718,
+      "pr_auc_mean": 0.46927668955862495,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "u_s",
+      "label_type": "label_sequential_correlation",
+      "auc_mean": 0.5158276372762596,
+      "accuracy_mean": 0.5622968749719525,
+      "pr_auc_mean": 0.6740641359570835,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "u_s",
+      "label_type": "label_skewness",
+      "auc_mean": 0.4905340995142852,
+      "accuracy_mean": 0.4890761389401265,
+      "pr_auc_mean": 0.5033214579101198,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "u_s",
+      "label_type": "label_kurtosis",
+      "auc_mean": 0.500172006915325,
+      "accuracy_mean": 0.49490950915958204,
+      "pr_auc_mean": 0.4580008039345609,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "u_s",
+      "label_type": "label_jarque_bera",
+      "auc_mean": 0.5018794135474436,
+      "accuracy_mean": 0.5030951553476222,
+      "pr_auc_mean": 0.4637275333626173,
+      "n_samples": 80803,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "settlement",
+      "label_type": "label_realized_volatility",
+      "auc_mean": 0.5697496274115721,
+      "accuracy_mean": 0.4915529035066464,
+      "pr_auc_mean": 0.5753659133492846,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "settlement",
+      "label_type": "label_sequential_correlation",
+      "auc_mean": 0.5631175719053814,
+      "accuracy_mean": 0.5915576058890201,
+      "pr_auc_mean": 0.6746879457434771,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "settlement",
+      "label_type": "label_skewness",
+      "auc_mean": 0.5453055203905717,
+      "accuracy_mean": 0.5317053905509297,
+      "pr_auc_mean": 0.5770915605843614,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "settlement",
+      "label_type": "label_kurtosis",
+      "auc_mean": 0.546909472131888,
+      "accuracy_mean": 0.5086366041309158,
+      "pr_auc_mean": 0.5428554736123059,
+      "n_samples": 18931,
+      "n_features": 50
+    },
+    {
+      "symbol": "ETHUSDT",
+      "regime": "settlement",
+      "label_type": "label_jarque_bera",
+      "auc_mean": 0.557845789468674,
+      "accuracy_mean": 0.5030520832010632,
+      "pr_auc_mean": 0.5539856048674147,
+      "n_samples": 18931,
+      "n_features": 50
+    }
+  ]
+}

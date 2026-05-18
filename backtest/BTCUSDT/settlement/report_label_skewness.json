@@ -1,0 +1,39 @@
+{
+  "symbol": "BTCUSDT",
+  "label_type": "label_skewness",
+  "regime": "settlement",
+  "test_start_date": "2025-01-01",
+  "evaluated_utc": "2026-05-16T18:16:34.233616+00:00",
+  "n_samples": 4685,
+  "auc": 0.4470991923128127,
+  "pr_auc": 0.4098596591071254,
+  "accuracy": 0.4751334044823906,
+  "f1": 0.40155755658311026,
+  "strategy_return": -165.02399999999983,
+  "n_trades": 3780,
+  "win_rate": 0.4785714285714286,
+  "signal_threshold": 0.55,
+  "fee_bps": 4.0,
+  "top5_mda": [
+    {
+      "feature": "btc_roll_240",
+      "importance_mean": 0.031803628601921055
+    },
+    {
+      "feature": "btc_roll_720",
+      "importance_mean": 0.030096051227321265
+    },
+    {
+      "feature": "eth_roll_50",
+      "importance_mean": 0.02155816435432232
+    },
+    {
+      "feature": "eth_kyle_lambda_240",
+      "importance_mean": 0.016648879402347917
+    },
+    {
+      "feature": "eth_roll_480",
+      "importance_mean": 0.014727854855923183
+    }
+  ]
+}

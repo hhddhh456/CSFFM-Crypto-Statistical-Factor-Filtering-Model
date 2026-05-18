@@ -1,0 +1,23 @@
+{
+  "symbol": "ETHUSDT",
+  "label_type": "label_jarque_bera",
+  "regime": "u_s",
+  "train_end": "2024-12-31",
+  "test_start": "2025-01-01",
+  "evaluated_utc": "2026-05-16T18:00:04.238888+00:00",
+  "n_train": 80803,
+  "n_oos": 24132,
+  "auc_in_sample": 0.501877048853966,
+  "auc_holdout_train": 0.4888631090271796,
+  "auc_oos": 0.5763149823052269,
+  "auc_gap": -0.07443793345126093,
+  "pr_auc_oos": 0.5273795112234297,
+  "auc_phase4_baseline": 0.576315003051784,
+  "status": "ok",
+  "walk_forward_auc_mean_train": 0.501877048853966,
+  "pr_auc_in_sample_cv": 0.46372373948570295,
+  "accuracy_oos": 0.551011105585944,
+  "f1_oos": 0.5428462934053415,
+  "pr_auc_phase4_baseline": 0.5273780103996426,
+  "baseline_minus_fresh_oos": 2.0746557027884194e-08
+}

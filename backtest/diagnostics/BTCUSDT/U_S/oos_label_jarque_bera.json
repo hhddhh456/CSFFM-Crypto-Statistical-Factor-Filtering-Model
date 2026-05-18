@@ -1,0 +1,23 @@
+{
+  "symbol": "BTCUSDT",
+  "label_type": "label_jarque_bera",
+  "regime": "u_s",
+  "train_end": "2024-12-31",
+  "test_start": "2025-01-01",
+  "evaluated_utc": "2026-05-16T17:44:46.992202+00:00",
+  "n_train": 80803,
+  "n_oos": 24132,
+  "auc_in_sample": 0.5209745022046678,
+  "auc_holdout_train": 0.5288806887484891,
+  "auc_oos": 0.5048771271111155,
+  "auc_gap": 0.016097375093552246,
+  "pr_auc_oos": 0.5076057459040597,
+  "auc_phase4_baseline": 0.5048771854955154,
+  "status": "ok",
+  "walk_forward_auc_mean_train": 0.5209745022046678,
+  "pr_auc_in_sample_cv": 0.4611607149832017,
+  "accuracy_oos": 0.49071771921100615,
+  "f1_oos": 0.4644880174291939,
+  "pr_auc_phase4_baseline": 0.5076057295593454,
+  "baseline_minus_fresh_oos": 5.838439987027044e-08
+}

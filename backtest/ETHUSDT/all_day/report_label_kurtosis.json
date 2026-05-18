@@ -1,0 +1,39 @@
+{
+  "symbol": "ETHUSDT",
+  "label_type": "label_kurtosis",
+  "regime": "all_day",
+  "test_start_date": "2025-01-01",
+  "evaluated_utc": "2026-05-16T18:18:12.742021+00:00",
+  "n_samples": 72911,
+  "auc": 0.5748228482010631,
+  "pr_auc": 0.5306845172233451,
+  "accuracy": 0.5459807162156601,
+  "f1": 0.5324633137013969,
+  "strategy_return": 6480.536000000002,
+  "n_trades": 46830,
+  "win_rate": 0.5695921417894512,
+  "signal_threshold": 0.55,
+  "fee_bps": 4.0,
+  "top5_mda": [
+    {
+      "feature": "eth_roll_240",
+      "importance_mean": 0.012343139271754743
+    },
+    {
+      "feature": "btc_roll_720",
+      "importance_mean": 0.011081396146197608
+    },
+    {
+      "feature": "btc_roll_100",
+      "importance_mean": 0.009613934032777837
+    },
+    {
+      "feature": "eth_vpin_240",
+      "importance_mean": 0.008804772680518403
+    },
+    {
+      "feature": "eth_roll_720",
+      "importance_mean": 0.00800932592744974
+    }
+  ]
+}

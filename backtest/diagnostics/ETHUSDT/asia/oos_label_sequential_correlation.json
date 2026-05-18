@@ -1,0 +1,23 @@
+{
+  "symbol": "ETHUSDT",
+  "label_type": "label_sequential_correlation",
+  "regime": "asia",
+  "train_end": "2024-12-31",
+  "test_start": "2025-01-01",
+  "evaluated_utc": "2026-05-16T17:55:23.705735+00:00",
+  "n_train": 61099,
+  "n_oos": 16784,
+  "auc_in_sample": 0.5551714651585197,
+  "auc_holdout_train": 0.5388993093777872,
+  "auc_oos": 0.6149010561745589,
+  "auc_gap": -0.05972959101603925,
+  "pr_auc_oos": 0.7565929032457359,
+  "auc_phase4_baseline": 0.6149010404051107,
+  "status": "ok",
+  "walk_forward_auc_mean_train": 0.5551714651585197,
+  "pr_auc_in_sample_cv": 0.7088021420534254,
+  "accuracy_oos": 0.6382864632983795,
+  "f1_oos": 0.7551719966124935,
+  "pr_auc_phase4_baseline": 0.7565931054260131,
+  "baseline_minus_fresh_oos": -1.5769448191704782e-08
+}

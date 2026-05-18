@@ -1,0 +1,222 @@
+{
+  "symbol": "ETHUSDT",
+  "run_started_utc": "2026-04-08T18:07:59.882848+00:00",
+  "models": {
+    "label_sequential_correlation": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_sequential_correlation.pkl",
+      "summary": {
+        "label_type": "label_sequential_correlation",
+        "n_samples": 803060,
+        "n_features": 20,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5068446523802685,
+        "auc_std": 0.015365224703608689,
+        "accuracy_mean": 0.5089340404670667,
+        "accuracy_std": 0.013513418695425737,
+        "oob_score": 0.8930919028232849
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 127972,
+          "n_val": 160161,
+          "auc": 0.5191614441524798,
+          "accuracy": 0.5167237966795911
+        },
+        {
+          "fold": 2,
+          "n_train": 256647,
+          "n_val": 160246,
+          "auc": 0.4910530730054672,
+          "accuracy": 0.4885488561336944
+        },
+        {
+          "fold": 3,
+          "n_train": 384833,
+          "n_val": 160377,
+          "auc": 0.4853201332815362,
+          "accuracy": 0.49756511220436844
+        },
+        {
+          "fold": 4,
+          "n_train": 513062,
+          "n_val": 160297,
+          "auc": 0.5180053281272734,
+          "accuracy": 0.5177202318196847
+        },
+        {
+          "fold": 5,
+          "n_train": 641841,
+          "n_val": 160313,
+          "auc": 0.5206832833345861,
+          "accuracy": 0.5241122054979945
+        }
+      ]
+    },
+    "label_skewness": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_skewness.pkl",
+      "summary": {
+        "label_type": "label_skewness",
+        "n_samples": 803060,
+        "n_features": 20,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5063591204396475,
+        "auc_std": 0.006616362352924346,
+        "accuracy_mean": 0.5031736685217315,
+        "accuracy_std": 0.0065371714288537525,
+        "oob_score": 0.8948633695884183
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 127972,
+          "n_val": 160161,
+          "auc": 0.5007526084100531,
+          "accuracy": 0.5003402825906431
+        },
+        {
+          "fold": 2,
+          "n_train": 256647,
+          "n_val": 160246,
+          "auc": 0.49848583071291797,
+          "accuracy": 0.4920497235500418
+        },
+        {
+          "fold": 3,
+          "n_train": 384833,
+          "n_val": 160377,
+          "auc": 0.5174222855300376,
+          "accuracy": 0.5111892603054053
+        },
+        {
+          "fold": 4,
+          "n_train": 513062,
+          "n_val": 160297,
+          "auc": 0.5072973485449419,
+          "accuracy": 0.5061666781037699
+        },
+        {
+          "fold": 5,
+          "n_train": 641841,
+          "n_val": 160313,
+          "auc": 0.5078375290002869,
+          "accuracy": 0.5061223980587974
+        }
+      ]
+    },
+    "label_kurtosis": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_kurtosis.pkl",
+      "summary": {
+        "label_type": "label_kurtosis",
+        "n_samples": 803060,
+        "n_features": 20,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5245897394142366,
+        "auc_std": 0.002792418486375506,
+        "accuracy_mean": 0.5136594812477571,
+        "accuracy_std": 0.00399895784269037,
+        "oob_score": 0.9010783044398847
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 127972,
+          "n_val": 160161,
+          "auc": 0.5263108592483174,
+          "accuracy": 0.5183846254706201
+        },
+        {
+          "fold": 2,
+          "n_train": 256647,
+          "n_val": 160246,
+          "auc": 0.5241112879072383,
+          "accuracy": 0.5097662344145876
+        },
+        {
+          "fold": 3,
+          "n_train": 384833,
+          "n_val": 160377,
+          "auc": 0.5254245767502276,
+          "accuracy": 0.5103786702582042
+        },
+        {
+          "fold": 4,
+          "n_train": 513062,
+          "n_val": 160297,
+          "auc": 0.5194925467704181,
+          "accuracy": 0.5110950298508394
+        },
+        {
+          "fold": 5,
+          "n_train": 641841,
+          "n_val": 160313,
+          "auc": 0.5276094263949817,
+          "accuracy": 0.5186728462445341
+        }
+      ]
+    },
+    "label_jarque_bera": {
+      "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_jarque_bera.pkl",
+      "summary": {
+        "label_type": "label_jarque_bera",
+        "n_samples": 803060,
+        "n_features": 20,
+        "n_splits": 5,
+        "val_size": 0.2,
+        "purge_minutes": 1500,
+        "n_estimators": 100,
+        "auc_mean": 0.5260554844755538,
+        "auc_std": 0.0031719507030600587,
+        "accuracy_mean": 0.5154069646834708,
+        "accuracy_std": 0.004220635013828242,
+        "oob_score": 0.9022873266120426
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "n_train": 127972,
+          "n_val": 160161,
+          "auc": 0.524778928467107,
+          "accuracy": 0.5175354799233272
+        },
+        {
+          "fold": 2,
+          "n_train": 256647,
+          "n_val": 160246,
+          "auc": 0.5263853411204708,
+          "accuracy": 0.5106710931942139
+        },
+        {
+          "fold": 3,
+          "n_train": 384833,
+          "n_val": 160377,
+          "auc": 0.528296749517124,
+          "accuracy": 0.5139702076981113
+        },
+        {
+          "fold": 4,
+          "n_train": 513062,
+          "n_val": 160297,
+          "auc": 0.520787231146995,
+          "accuracy": 0.5123364754175063
+        },
+        {
+          "fold": 5,
+          "n_train": 641841,
+          "n_val": 160313,
+          "auc": 0.5300291721260723,
+          "accuracy": 0.522521567184196
+        }
+      ]
+    }
+  }
+}

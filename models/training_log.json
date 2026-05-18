@@ -1,0 +1,1378 @@
+{
+  "2026-04-08T17:20:35.709528+00:00": {
+    "run_started_utc": "2026-04-08T17:20:35.709528+00:00",
+    "force_recompute": false,
+    "steps": [
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5295824397625681,
+        "accuracy_mean": 0.5184124738962546,
+        "oob_score": 0.9003398037831799
+      },
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.503154516779774,
+        "accuracy_mean": 0.5063792598859551,
+        "oob_score": 0.8932071961747535
+      },
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_skewness.pkl",
+        "auc_mean": 0.5067987759062005,
+        "accuracy_mean": 0.5034915511139765,
+        "oob_score": 0.8984810879953135
+      },
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5288226037143721,
+        "accuracy_mean": 0.5199755006848784,
+        "oob_score": 0.898869034542823
+      },
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5291511975469622,
+        "accuracy_mean": 0.5205571165693763,
+        "oob_score": 0.8997041323318392
+      },
+      {
+        "symbol": "ETHUSDT",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5310266270423653,
+        "accuracy_mean": 0.5206993574252844,
+        "oob_score": 0.9002213943951851
+      }
+    ]
+  },
+  "2026-04-08T18:07:59.882848+00:00": {
+    "run_started_utc": "2026-04-08T18:07:59.882848+00:00",
+    "force_recompute": false,
+    "steps": [
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_realized_volatility",
+        "status": "skipped",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_realized_volatility.pkl"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_sequential_correlation",
+        "status": "skipped",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_sequential_correlation.pkl"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_skewness",
+        "status": "skipped",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_skewness.pkl"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_kurtosis",
+        "status": "skipped",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_kurtosis.pkl"
+      },
+      {
+        "symbol": "BTCUSDT",
+        "label_type": "label_jarque_bera",
+        "status": "skipped",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\btc\\model_label_jarque_bera.pkl"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "label_type": "label_realized_volatility",
+        "status": "skipped",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_realized_volatility.pkl"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5068446523802685,
+        "accuracy_mean": 0.5089340404670667,
+        "oob_score": 0.8930919028232849
+      },
+      {
+        "symbol": "ETHUSDT",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_skewness.pkl",
+        "auc_mean": 0.5063591204396475,
+        "accuracy_mean": 0.5031736685217315,
+        "oob_score": 0.8948633695884183
+      },
+      {
+        "symbol": "ETHUSDT",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5245897394142366,
+        "accuracy_mean": 0.5136594812477571,
+        "oob_score": 0.9010783044398847
+      },
+      {
+        "symbol": "ETHUSDT",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\eth\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5260554844755538,
+        "accuracy_mean": 0.5154069646834708,
+        "oob_score": 0.9022873266120426
+      }
+    ]
+  },
+  "2026-05-15T16:47:07.482652+00:00": {
+    "run_started_utc": "2026-05-15T16:47:07.482652+00:00",
+    "force_recompute": true,
+    "regimes": [
+      "all_day",
+      "asia",
+      "u_s",
+      "settlement"
+    ],
+    "steps": [
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5687571648194991,
+        "accuracy_mean": 0.5429337047562519,
+        "pr_auc_mean": 0.5542278107360288
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.553758093211334,
+        "accuracy_mean": 0.6239599124253956,
+        "pr_auc_mean": 0.721733731688502
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_skewness.pkl",
+        "auc_mean": 0.5105321379372689,
+        "accuracy_mean": 0.5051900320062518,
+        "pr_auc_mean": 0.5116123293512673
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5833903241412896,
+        "accuracy_mean": 0.5574590713713811,
+        "pr_auc_mean": 0.5330657473161947
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5820564397216935,
+        "accuracy_mean": 0.5583600461327547,
+        "pr_auc_mean": 0.5306760376666898
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5457029089235188,
+        "accuracy_mean": 0.5621555099216169,
+        "pr_auc_mean": 0.586483010856073
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5426107205231578,
+        "accuracy_mean": 0.6575859385867474,
+        "pr_auc_mean": 0.7252086866637886
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_skewness.pkl",
+        "auc_mean": 0.5119139511812468,
+        "accuracy_mean": 0.5099671469736199,
+        "pr_auc_mean": 0.5223213850826713
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5969590537869932,
+        "accuracy_mean": 0.5602123757635955,
+        "pr_auc_mean": 0.5814285543593293
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5948320363162672,
+        "accuracy_mean": 0.5685784476418847,
+        "pr_auc_mean": 0.5826680267904353
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5568233961824378,
+        "accuracy_mean": 0.529715299104908,
+        "pr_auc_mean": 0.5101070820978241
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5215200650982684,
+        "accuracy_mean": 0.6376765774389016,
+        "pr_auc_mean": 0.7080155125731011
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_skewness.pkl",
+        "auc_mean": 0.4947665510493063,
+        "accuracy_mean": 0.49485349028584524,
+        "pr_auc_mean": 0.5194187885660537
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5581718243675985,
+        "accuracy_mean": 0.5299040969219627,
+        "pr_auc_mean": 0.5055321177664609
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5535034257398218,
+        "accuracy_mean": 0.5217712547672041,
+        "pr_auc_mean": 0.5046362834539697
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.6301111979040238,
+        "accuracy_mean": 0.5979923580504269,
+        "pr_auc_mean": 0.6536626680170012
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5285881692927099,
+        "accuracy_mean": 0.5996068870021389,
+        "pr_auc_mean": 0.6334265795485352
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_skewness.pkl",
+        "auc_mean": 0.5019394407807148,
+        "accuracy_mean": 0.49615928101708456,
+        "pr_auc_mean": 0.4967471353790033
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_kurtosis.pkl",
+        "auc_mean": 0.6146830169714811,
+        "accuracy_mean": 0.5665853039742644,
+        "pr_auc_mean": 0.6209152728129976
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.6193836480804233,
+        "accuracy_mean": 0.5684295796529729,
+        "pr_auc_mean": 0.6205965163012487
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5598289022611797,
+        "accuracy_mean": 0.5253083019458036,
+        "pr_auc_mean": 0.5308189853011808
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5294826853097013,
+        "accuracy_mean": 0.599184035077782,
+        "pr_auc_mean": 0.6802330753733905
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_skewness.pkl",
+        "auc_mean": 0.504892763707159,
+        "accuracy_mean": 0.5017954506236981,
+        "pr_auc_mean": 0.5173633217474713
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5635271118448191,
+        "accuracy_mean": 0.5419703045315694,
+        "pr_auc_mean": 0.5281427553667699
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.563114132094997,
+        "accuracy_mean": 0.5436689582543568,
+        "pr_auc_mean": 0.5282969885539899
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5677500945904643,
+        "accuracy_mean": 0.5591157628408894,
+        "pr_auc_mean": 0.5795766200300305
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5357812134323028,
+        "accuracy_mean": 0.577829354005397,
+        "pr_auc_mean": 0.693838307764656
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_skewness.pkl",
+        "auc_mean": 0.532526739079279,
+        "accuracy_mean": 0.5164283747479734,
+        "pr_auc_mean": 0.5566311014915027
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5647269856175544,
+        "accuracy_mean": 0.5367479406073781,
+        "pr_auc_mean": 0.5492509531000718
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5665373299494366,
+        "accuracy_mean": 0.5335375792249851,
+        "pr_auc_mean": 0.549222844586048
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5293704394065891,
+        "accuracy_mean": 0.5187016160834086,
+        "pr_auc_mean": 0.4780918047281171
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.525668556457051,
+        "accuracy_mean": 0.5912221995317821,
+        "pr_auc_mean": 0.6761165219898886
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_skewness.pkl",
+        "auc_mean": 0.4811856690821387,
+        "accuracy_mean": 0.47823043129201653,
+        "pr_auc_mean": 0.5063354355938651
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5381075853997332,
+        "accuracy_mean": 0.5185746972592076,
+        "pr_auc_mean": 0.48698553934203404
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5284314147511943,
+        "accuracy_mean": 0.5106539250248201,
+        "pr_auc_mean": 0.48660597499592206
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5612387646058402,
+        "accuracy_mean": 0.543069023225721,
+        "pr_auc_mean": 0.5997690461035768
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.6073043956850839,
+        "accuracy_mean": 0.619753501791551,
+        "pr_auc_mean": 0.713547762261111
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_skewness.pkl",
+        "auc_mean": 0.5557397883787913,
+        "accuracy_mean": 0.5367465240789783,
+        "pr_auc_mean": 0.5703690527012225
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_kurtosis.pkl",
+        "auc_mean": 0.551186381102992,
+        "accuracy_mean": 0.5179823049107236,
+        "pr_auc_mean": 0.5632579905989173
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5562930889306402,
+        "accuracy_mean": 0.5204967361713215,
+        "pr_auc_mean": 0.5670640453286181
+      }
+    ]
+  },
+  "2026-05-15T20:47:38.686410+00:00": {
+    "run_started_utc": "2026-05-15T20:47:38.686410+00:00",
+    "force_recompute": true,
+    "train_end_date": "2024-12-31",
+    "regimes": [
+      "all_day",
+      "asia",
+      "u_s",
+      "settlement"
+    ],
+    "steps": [
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5607683679604138,
+        "accuracy_mean": 0.5342971643105817,
+        "pr_auc_mean": 0.5463765544912282
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5417940325021927,
+        "accuracy_mean": 0.6096397766599029,
+        "pr_auc_mean": 0.7106983432588416
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_skewness.pkl",
+        "auc_mean": 0.5027518749167446,
+        "accuracy_mean": 0.501049377681541,
+        "pr_auc_mean": 0.5183004406932756
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5745611149752767,
+        "accuracy_mean": 0.5289898481494618,
+        "pr_auc_mean": 0.5159770982636387
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5707488632400339,
+        "accuracy_mean": 0.5275443491479469,
+        "pr_auc_mean": 0.5122704440299921
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5280757854691174,
+        "accuracy_mean": 0.5242627594403373,
+        "pr_auc_mean": 0.5559347105900196
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5570066496196314,
+        "accuracy_mean": 0.6424942655818422,
+        "pr_auc_mean": 0.747871839351985
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_skewness.pkl",
+        "auc_mean": 0.5020291221577373,
+        "accuracy_mean": 0.48286663218959963,
+        "pr_auc_mean": 0.4996496906364662
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5884472906444412,
+        "accuracy_mean": 0.5494531502358023,
+        "pr_auc_mean": 0.5583750960535981
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.6012745141499221,
+        "accuracy_mean": 0.5614297147251659,
+        "pr_auc_mean": 0.572737231744718
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.540973377028043,
+        "accuracy_mean": 0.5030139795867956,
+        "pr_auc_mean": 0.4930364406275
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5216685939091509,
+        "accuracy_mean": 0.5963039790946596,
+        "pr_auc_mean": 0.7030055135801987
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_skewness.pkl",
+        "auc_mean": 0.4945442928383607,
+        "accuracy_mean": 0.4983617963259944,
+        "pr_auc_mean": 0.49934255720726306
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5232240079636641,
+        "accuracy_mean": 0.5063875931119398,
+        "pr_auc_mean": 0.46660984449620047
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5209744922608452,
+        "accuracy_mean": 0.5046832242057442,
+        "pr_auc_mean": 0.4611605543265808
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5822767801600778,
+        "accuracy_mean": 0.5441531416638673,
+        "pr_auc_mean": 0.6180100464326881
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5037719306944115,
+        "accuracy_mean": 0.5491427786771301,
+        "pr_auc_mean": 0.5899056779668992
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_skewness.pkl",
+        "auc_mean": 0.5286745359177364,
+        "accuracy_mean": 0.5077306517355707,
+        "pr_auc_mean": 0.547774729022861
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_kurtosis.pkl",
+        "auc_mean": 0.6101521767326852,
+        "accuracy_mean": 0.5545073005428935,
+        "pr_auc_mean": 0.6306958117309435
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.6107710366186281,
+        "accuracy_mean": 0.557970465128214,
+        "pr_auc_mean": 0.6297312663401862
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5467763290917285,
+        "accuracy_mean": 0.5239946739560919,
+        "pr_auc_mean": 0.5179988065995234
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5308613724095712,
+        "accuracy_mean": 0.5880770098421977,
+        "pr_auc_mean": 0.6771836924349485
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_skewness.pkl",
+        "auc_mean": 0.5003786865870371,
+        "accuracy_mean": 0.49410050807183553,
+        "pr_auc_mean": 0.501547987180132
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5583742620869085,
+        "accuracy_mean": 0.5381417501341772,
+        "pr_auc_mean": 0.5331058209839414
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5593666477060142,
+        "accuracy_mean": 0.5417120160810237,
+        "pr_auc_mean": 0.5377844487798668
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.532510231603105,
+        "accuracy_mean": 0.5437060625140223,
+        "pr_auc_mean": 0.5228875103777185
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5551714995616196,
+        "accuracy_mean": 0.6110221265690707,
+        "pr_auc_mean": 0.7088019884407994
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_skewness.pkl",
+        "auc_mean": 0.47881458855085784,
+        "accuracy_mean": 0.4814403267566629,
+        "pr_auc_mean": 0.5023325355799194
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5709595557529696,
+        "accuracy_mean": 0.5239429169232104,
+        "pr_auc_mean": 0.5352318156129668
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5702625508853656,
+        "accuracy_mean": 0.5233214023477968,
+        "pr_auc_mean": 0.5447993468002306
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5181793362873505,
+        "accuracy_mean": 0.4966605369208718,
+        "pr_auc_mean": 0.4692767393025646
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5158266188537239,
+        "accuracy_mean": 0.5622968749719525,
+        "pr_auc_mean": 0.6740643081575568
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_skewness.pkl",
+        "auc_mean": 0.4905348020878083,
+        "accuracy_mean": 0.4890761389401265,
+        "pr_auc_mean": 0.5033217005545009
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5001719417224608,
+        "accuracy_mean": 0.49490950915958204,
+        "pr_auc_mean": 0.4580003703849786
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5018780779085827,
+        "accuracy_mean": 0.5030951553476222,
+        "pr_auc_mean": 0.4637254320943304
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5697491390540688,
+        "accuracy_mean": 0.4915529035066464,
+        "pr_auc_mean": 0.5753653501799941
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5631124303256725,
+        "accuracy_mean": 0.5915576058890201,
+        "pr_auc_mean": 0.6746879039063766
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_skewness.pkl",
+        "auc_mean": 0.5453053512301993,
+        "accuracy_mean": 0.5317053905509297,
+        "pr_auc_mean": 0.5770922938574222
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_kurtosis.pkl",
+        "auc_mean": 0.546909472131888,
+        "accuracy_mean": 0.5086366041309158,
+        "pr_auc_mean": 0.5428554736123059
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.557878210241662,
+        "accuracy_mean": 0.5030520832010632,
+        "pr_auc_mean": 0.5539965703090595
+      }
+    ]
+  },
+  "2026-05-16T03:46:03.268083+00:00": {
+    "run_started_utc": "2026-05-16T03:46:03.268083+00:00",
+    "force_recompute": true,
+    "train_end_date": "2024-12-31",
+    "regimes": [
+      "all_day",
+      "asia",
+      "u_s",
+      "settlement"
+    ],
+    "steps": [
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.560768387827288,
+        "accuracy_mean": 0.5342971643105817,
+        "pr_auc_mean": 0.5463765498560649
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5417939551271844,
+        "accuracy_mean": 0.6096397766599029,
+        "pr_auc_mean": 0.7106855261873484
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_skewness.pkl",
+        "auc_mean": 0.5027515067823609,
+        "accuracy_mean": 0.501049377681541,
+        "pr_auc_mean": 0.5183006427697705
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5745612521112557,
+        "accuracy_mean": 0.5289898481494618,
+        "pr_auc_mean": 0.5159764382783646
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "all_day",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\all_day\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5707488840464323,
+        "accuracy_mean": 0.5275443491479469,
+        "pr_auc_mean": 0.5122709068784674
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5280762372693106,
+        "accuracy_mean": 0.5242627594403373,
+        "pr_auc_mean": 0.555936018084745
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5570065984961835,
+        "accuracy_mean": 0.6424942655818422,
+        "pr_auc_mean": 0.7478718670094427
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_skewness.pkl",
+        "auc_mean": 0.5020291680384781,
+        "accuracy_mean": 0.48286663218959963,
+        "pr_auc_mean": 0.4996494178820809
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5884472906444412,
+        "accuracy_mean": 0.5494531502358023,
+        "pr_auc_mean": 0.5583750494924749
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "asia",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\asia\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.6012733550296376,
+        "accuracy_mean": 0.5614297147251659,
+        "pr_auc_mean": 0.5727345806713344
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5409724242149749,
+        "accuracy_mean": 0.5030139795867956,
+        "pr_auc_mean": 0.4930333044740062
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5216681102921102,
+        "accuracy_mean": 0.5963039790946596,
+        "pr_auc_mean": 0.703005390008871
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_skewness.pkl",
+        "auc_mean": 0.49454516451701036,
+        "accuracy_mean": 0.4983617963259944,
+        "pr_auc_mean": 0.4993430538960168
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5232260085067485,
+        "accuracy_mean": 0.5063875931119398,
+        "pr_auc_mean": 0.4666022774846207
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "u_s",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\U_S\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5209744969546763,
+        "accuracy_mean": 0.5046832242057442,
+        "pr_auc_mean": 0.46115766204015507
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5822767801600778,
+        "accuracy_mean": 0.5441531416638673,
+        "pr_auc_mean": 0.6180100464326881
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5037715775497267,
+        "accuracy_mean": 0.5491427786771301,
+        "pr_auc_mean": 0.5899056085532928
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_skewness.pkl",
+        "auc_mean": 0.5286745359177364,
+        "accuracy_mean": 0.5077306517355707,
+        "pr_auc_mean": 0.547774729022861
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_kurtosis.pkl",
+        "auc_mean": 0.6101521767326852,
+        "accuracy_mean": 0.5545073005428935,
+        "pr_auc_mean": 0.630695777736892
+      },
+      {
+        "symbol": "BTCUSDT",
+        "regime": "settlement",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\BTCUSDT\\settlement\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.6107710930266022,
+        "accuracy_mean": 0.557970465128214,
+        "pr_auc_mean": 0.6297312197937179
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5467760284266379,
+        "accuracy_mean": 0.5239946739560919,
+        "pr_auc_mean": 0.5179981897421299
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5308614937221127,
+        "accuracy_mean": 0.5880770098421977,
+        "pr_auc_mean": 0.6771848850049238
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_skewness.pkl",
+        "auc_mean": 0.5003787683940867,
+        "accuracy_mean": 0.49410050807183553,
+        "pr_auc_mean": 0.5015478731109748
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5583735348356995,
+        "accuracy_mean": 0.5381417501341772,
+        "pr_auc_mean": 0.5330950836647593
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "all_day",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\all_day\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5593648281781619,
+        "accuracy_mean": 0.5417120160810237,
+        "pr_auc_mean": 0.5377707398448157
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.532510231603105,
+        "accuracy_mean": 0.5437060625140223,
+        "pr_auc_mean": 0.5228875003448679
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.555171356030182,
+        "accuracy_mean": 0.6110221265690707,
+        "pr_auc_mean": 0.7088020703963336
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_skewness.pkl",
+        "auc_mean": 0.4788142839061805,
+        "accuracy_mean": 0.4814403267566629,
+        "pr_auc_mean": 0.5023324061649654
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_kurtosis.pkl",
+        "auc_mean": 0.5709576173717071,
+        "accuracy_mean": 0.5239429169232104,
+        "pr_auc_mean": 0.5352330586441234
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "asia",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\asia\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5702640639172192,
+        "accuracy_mean": 0.5233214023477968,
+        "pr_auc_mean": 0.5447958648914485
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5181793490002765,
+        "accuracy_mean": 0.4966605369208718,
+        "pr_auc_mean": 0.46927668955862495
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5158276372762596,
+        "accuracy_mean": 0.5622968749719525,
+        "pr_auc_mean": 0.6740641359570835
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_skewness.pkl",
+        "auc_mean": 0.4905340995142852,
+        "accuracy_mean": 0.4890761389401265,
+        "pr_auc_mean": 0.5033214579101198
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_kurtosis.pkl",
+        "auc_mean": 0.500172006915325,
+        "accuracy_mean": 0.49490950915958204,
+        "pr_auc_mean": 0.4580008039345609
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "u_s",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\U_S\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.5018794135474436,
+        "accuracy_mean": 0.5030951553476222,
+        "pr_auc_mean": 0.4637275333626173
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_realized_volatility",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_realized_volatility.pkl",
+        "auc_mean": 0.5697496274115721,
+        "accuracy_mean": 0.4915529035066464,
+        "pr_auc_mean": 0.5753659133492846
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_sequential_correlation",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_sequential_correlation.pkl",
+        "auc_mean": 0.5631175719053814,
+        "accuracy_mean": 0.5915576058890201,
+        "pr_auc_mean": 0.6746879457434771
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_skewness",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_skewness.pkl",
+        "auc_mean": 0.5453055203905717,
+        "accuracy_mean": 0.5317053905509297,
+        "pr_auc_mean": 0.5770915605843614
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_kurtosis",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_kurtosis.pkl",
+        "auc_mean": 0.546909472131888,
+        "accuracy_mean": 0.5086366041309158,
+        "pr_auc_mean": 0.5428554736123059
+      },
+      {
+        "symbol": "ETHUSDT",
+        "regime": "settlement",
+        "label_type": "label_jarque_bera",
+        "status": "computed",
+        "model_path": "C:\\Users\\a0102\\OneDrive\\桌面\\｜所有程式\\copy\\models\\ETHUSDT\\settlement\\model_label_jarque_bera.pkl",
+        "auc_mean": 0.557845789468674,
+        "accuracy_mean": 0.5030520832010632,
+        "pr_auc_mean": 0.5539856048674147
+      }
+    ]
+  }
+}

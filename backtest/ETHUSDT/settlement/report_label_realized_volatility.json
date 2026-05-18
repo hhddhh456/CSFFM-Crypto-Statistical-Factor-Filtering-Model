@@ -1,0 +1,39 @@
+{
+  "symbol": "ETHUSDT",
+  "label_type": "label_realized_volatility",
+  "regime": "settlement",
+  "test_start_date": "2025-01-01",
+  "evaluated_utc": "2026-05-16T18:20:20.449068+00:00",
+  "n_samples": 4685,
+  "auc": 0.5321032394764963,
+  "pr_auc": 0.5387443096627327,
+  "accuracy": 0.559445037353255,
+  "f1": 0.4715821812596006,
+  "strategy_return": 384.1224000000001,
+  "n_trades": 3597,
+  "win_rate": 0.5537948290241869,
+  "signal_threshold": 0.55,
+  "fee_bps": 4.0,
+  "top5_mda": [
+    {
+      "feature": "eth_vpin_720",
+      "importance_mean": 0.05677694770544291
+    },
+    {
+      "feature": "eth_roll_720",
+      "importance_mean": 0.025186766275346884
+    },
+    {
+      "feature": "btc_roll_100",
+      "importance_mean": 0.024119530416222012
+    },
+    {
+      "feature": "eth_roll_480",
+      "importance_mean": 0.023052294557097164
+    },
+    {
+      "feature": "eth_roll_50",
+      "importance_mean": 0.01985058697972253
+    }
+  ]
+}
