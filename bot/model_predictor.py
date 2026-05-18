@@ -31,7 +31,18 @@ from bot.config import (
     TAIL_RISK_HIGH,
     strike_tick,
 )
-from bot.feature_consistency import get_model_feature_names, validate_feature_consistency
+from bot.config import (
+    FEATURE_WINDOW,
+    RAW_KLINE_LIMIT,
+    RUNTIME_FEATURE_SOURCE,
+    RUNTIME_VERSION,
+)
+from bot.feature_consistency import (
+    align_feature_row,
+    get_model_feature_names,
+    validate_feature_consistency,
+)
+from bot.feature_drift import check_feature_updated, log_prediction_drift
 from bot.live_feature_pipeline import (
     LiveSnapshot,
     build_live_snapshot_or_raise,
@@ -484,14 +495,22 @@ def build_model_audit(
     feature_list_path = str(_PHASE4.features_combined_path("BTCUSDT"))
     feature_count = len(snap.X_row.columns)
     return {
+        "runtime_version": RUNTIME_VERSION,
         "model_family": "RandomForest",
         "model_path": model_path,
         "feature_list_path": feature_list_path,
         "feature_count": feature_count,
         "pipeline_source": "live_feature_pipeline",
+        "runtime_feature_source": getattr(
+            snap, "runtime_feature_source", RUNTIME_FEATURE_SOURCE
+        ),
+        "feature_window": getattr(snap, "feature_window", FEATURE_WINDOW),
         "prediction_source": "rf_predict_proba",
+        "prediction_mode": "runtime_inference_only",
+        "model_source": "existing trained .pkl",
         "model_loaded": model_loaded,
         "feature_pipeline_ok": bool(feature_consistency.get("ok")),
+        "feature_timestamp_utc": snap.feature_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
         "latest_candle_time_utc": snap.latest_kline_time.strftime("%Y-%m-%d %H:%M:%S"),
         "vpin_enabled": bool(feature_consistency.get("vpin_enabled")),
     }
@@ -534,11 +553,17 @@ def get_model_status_audit(snap: LiveSnapshot | None = None) -> dict[str, Any]:
         "feature_list_path": str(_PHASE4.features_combined_path("BTCUSDT")),
         "feature_count": feature_count,
         "pipeline_source": "live_feature_pipeline",
+        "runtime_feature_source": RUNTIME_FEATURE_SOURCE,
+        "feature_window": FEATURE_WINDOW,
         "data_source": "Binance live 1m K 線",
         "latest_candle_time_utc": latest_kline,
+        "feature_timestamp_utc": (
+            snap.feature_timestamp.strftime("%Y-%m-%d %H:%M:%S") if snap else "N/A"
+        ),
         "model_loaded": model_loaded,
         "feature_pipeline_ok": feature_pipeline_ok,
         "vpin_enabled": vpin_enabled,
+        "runtime_version": RUNTIME_VERSION,
     }
 
 
@@ -568,9 +593,37 @@ def get_full_prediction() -> dict[str, Any]:
             + ("…" if len(missing) > 5 else "")
         )
 
+    snap_aligned = LiveSnapshot(
+        X_row=align_feature_row(snap.X_row, model_features),
+        prices=snap.prices,
+        current_rv=snap.current_rv,
+        historical_avg_vol=snap.historical_avg_vol,
+        feature_timestamp=snap.feature_timestamp,
+        latest_kline_time=snap.latest_kline_time,
+        kline_delay_seconds=snap.kline_delay_seconds,
+        data_delay_seconds=snap.data_delay_seconds,
+        stale=snap.stale,
+        stale_reason=snap.stale_reason,
+        runtime_feature_source=snap.runtime_feature_source,
+        feature_window=snap.feature_window,
+    )
+    snap = snap_aligned
+
+    drift_feat = check_feature_updated(snap.X_row)
+    fh = drift_feat["feature_hash"]
+    logger.info(
+        "V3 inference: runtime_feature_source=%s feature_window=%s feature_timestamp=%s "
+        "feature_hash=%s prediction_mode=runtime_inference_only",
+        snap.runtime_feature_source,
+        snap.feature_window,
+        snap.feature_timestamp,
+        fh,
+    )
+
     model_audit = build_model_audit(
         snap, feature_consistency=feature_consistency, model_loaded=model_loaded
     )
+    model_audit["feature_hash"] = fh
     logger.info("Model audit: %s", model_audit)
 
     now_utc = datetime.now(ZoneInfo(UTC_TZ))
@@ -580,13 +633,18 @@ def get_full_prediction() -> dict[str, Any]:
     btc_labels, btc_strike, btc_probas = _run_symbol("BTCUSDT", snap)
     eth_labels, eth_strike, eth_probas = _run_symbol("ETHUSDT", snap)
 
+    ref_probas = {k: btc_probas.get(k, eth_probas.get(k, 0.5)) for k in LABELS_FOR_REPORT}
+    pred_drift = log_prediction_drift(ref_probas)
+    logger.info("Prediction drift (BTC ref labels): %s", pred_drift)
+
     data: dict[str, Any] = {
         "taiwan_time": now_tw.strftime("%Y-%m-%d %H:%M:%S"),
         "utc_time": now_utc.strftime("%Y-%m-%d %H:%M:%S"),
         "ny_time": now_ny.strftime("%Y-%m-%d %H:%M:%S"),
         "model_version": "Multi-timeframe RF",
         "data_freshness_note": (
-            f"Binance 即時 1m K 線，末筆 {snap.latest_kline_time.strftime('%Y-%m-%d %H:%M:%S')} UTC"
+            f"Binance 即時 1m（{RAW_KLINE_LIMIT} 根），特徵末筆 "
+            f"{snap.feature_timestamp.strftime('%Y-%m-%d %H:%M:%S')} UTC"
         ),
     }
 

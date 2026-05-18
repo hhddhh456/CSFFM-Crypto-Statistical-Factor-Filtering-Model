@@ -188,6 +188,8 @@ def format_status(
     data_source = audit.get("data_source", "Binance live 1m K 線")
     pipeline = audit.get("pipeline_source", "live_feature_pipeline")
     latest_kline = audit.get("latest_candle_time_utc", "N/A")
+    feature_ts = audit.get("feature_timestamp_utc", "N/A")
+    feat_hash = audit.get("feature_hash", "")
     model_load_status = "正常" if audit.get("model_loaded") else "異常"
 
     lines = [
@@ -198,6 +200,8 @@ def format_status(
         f"資料來源：{safe_text(data_source)}",
         f"特徵管線：{safe_text(pipeline)}",
         f"最新 K 線：{safe_text(latest_kline)} UTC",
+        f"特徵末筆：{safe_text(feature_ts)} UTC",
+        f"特徵 hash：{safe_text(feat_hash) if feat_hash else '—'}",
         f"模型載入：{model_load_status}",
         f"Scheduler：{'啟用中' if scheduler_running else '未啟動（缺 TELEGRAM_CHAT_ID 或未排程）'}",
         f"推論 regime：{safe_text(PREDICTION_REGIME)}",

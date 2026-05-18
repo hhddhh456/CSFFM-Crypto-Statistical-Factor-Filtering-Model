@@ -27,15 +27,7 @@ async def main(*, test_mode: bool = False) -> None:
     setup_logging()
 
     if test_mode:
-        logger.info("Running test report mode")
-        from bot.model_predictor import get_full_prediction
-
-        try:
-            data = get_full_prediction()
-            logger.info("Feature consistency: %s", data.get("_feature_consistency"))
-            logger.info("Model audit: %s", data.get("_model_audit"))
-        except Exception:
-            logger.exception("get_full_prediction failed in --test")
+        logger.info("Running test report mode (V3 runtime inference)")
         await send_test_report()
         return
 

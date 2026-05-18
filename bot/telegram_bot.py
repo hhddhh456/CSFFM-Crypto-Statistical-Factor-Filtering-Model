@@ -72,6 +72,10 @@ async def cmd_status(message: Message, bot_state: BotState) -> None:
     except Exception as e:
         logger.warning("status snapshot failed: %s", e)
     model_audit = get_model_status_audit(snap)
+    if snap is not None:
+        from bot.feature_drift import feature_hash
+
+        model_audit = {**model_audit, "feature_hash": feature_hash(snap.X_row)[:8]}
     text = format_status(
         last_push=bot_state.last_push_utc,
         last_trigger=bot_state.last_trigger,

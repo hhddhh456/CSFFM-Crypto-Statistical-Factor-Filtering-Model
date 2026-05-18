@@ -14,6 +14,8 @@ from typing import Literal
 
 import pandas as pd
 
+from bot.config import RAW_KLINE_LIMIT
+
 logger = logging.getLogger(__name__)
 
 _BINANCE_API = "https://api.binance.com/api/v3"
@@ -141,7 +143,7 @@ def get_market_snapshot() -> MarketSnapshot:
         sym = _SYMBOL_MAP[base]
         try:
             prices[sym] = get_latest_price(base)
-            kdf = get_latest_klines(base, interval="1m", limit=1600)
+            kdf = get_latest_klines(base, interval="1m", limit=RAW_KLINE_LIMIT)
             klines[sym] = kdf
             kt = pd.Timestamp(kdf.index[-1])
             if kt.tzinfo is None:
