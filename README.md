@@ -2,11 +2,11 @@
 
 #### 💡中文版本 (Traditional Chinese Version)
 
-CSFFM 為加密貨幣（BTC / ETH）統計因子與期權風險報價系統，經 2021-2026 年樣本資料建立特徵工程與多窗口訓練，OOS AUC 平均為 0.5802。本系統提供跨市場開盤時段例行推送、有效統計因子預測（波動率、峰度、分佈異常等）、期權策略建議，通過 Telegram 進行策略報告推播。
+CSFFM 為加密貨幣（BTC / ETH）統計因子與期權風險報價系統。獲取 2021-2026 年 271,251 筆樣本資料建立特徵因子與多窗口訓練，OOS AUC 平均為 0.5802。本系統提供跨市場開盤時段例行推送、有效統計因子預測（波動率、峰度、分佈異常等）、期權策略建議，通過 Telegram 進行策略報告推播。
 #### Telegram Bot: https://t.me/CryptoSFFM_bot
 
 
-> ⚠️重要提示：本系統僅作為統計模型訊號、多因子過濾與期權賣方風險控制之輔助工具。報告內所有數據與自動產生的履約價建議均基於歷史數據模型推導，不構成任何形式的投資建議或要約。
+> ⚠️重要提示：本系統僅作為統計模型訊號、多因子過濾與期權風險控制之輔助工具。報告內所有數據與自動產生的履約價建議均基於歷史數據模型推導，不構成任何形式的投資建議或要約。
 
 ---
 
@@ -231,7 +231,7 @@ CSFFM is a specialized statistical factor and options risk pricing system built 
 
 
 
-> ⚠️CRITICAL NOTICE: This system is designed strictly as a statistical model signaling, multi-factor filtering, and risk management auxiliary tool for options sellers. All metrics and dynamically computed strike recommendations generated within reports are derived from historical mathematical formulations and do not constitute financial, investment, or trading advice.
+> ⚠️CRITICAL NOTICE: This system is designed strictly as a statistical model signaling, multi-factor filtering, and risk management auxiliary tool for options sellers trader. All metrics and dynamically computed strike recommendations generated within reports are derived from historical mathematical formulations and do not constitute financial, investment, or trading advice.
 
 ---
 
